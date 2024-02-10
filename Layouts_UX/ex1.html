@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes Example1</title>
+    <style>
+        .outer-box  {
+            width: 400px; /* Set the width of the outer box */
+            height: 400px; /* Set the height of the outer box */
+            background-color: Red; /* Set the background color of the outer box */
+            position: absolute; /* Position the outer box absolutely */
+            top: 50%; /* Move the outer box 50% down from the top of the viewport */
+            left: 50%; /* Move the outer box 50% from the left of the viewport */
+            transform: translate(-50%, -50%); /* Translate the outer box to center it */
+        }
+        .inner-box{
+            width: 50%; /* Set the width of the inner box to half of the outer box */
+            height: 50%; /* Set the height of the inner box to half of the outer box */
+            background-color: black; /* Set the background color of the inner box */
+            position: absolute; /* Position the inner box absolutely */
+            top: 50%; /* Move the inner box 50% down from the top of the viewport */
+            left: 50%; /* Move the inner box 50% from the left of the viewport */
+            transform: translate(-50%, -50%); /* Translate the inner box to center it */
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-box">
+        <div class="inner-box"></div>
+    </div>
+</body>
+</html>
+
+

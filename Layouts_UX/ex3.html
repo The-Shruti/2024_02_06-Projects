@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Example3</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            background-color: #FF00FF;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        } 
+        footer {
+            background-color: #F9629F;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .middle-section {
+            display: flex;
+            flex: 1; 
+
+        }
+        .left-section, .right-section, .middle-section {
+          padding: 2px; 
+          text-overflow: ellipsis; /* Show ellipsis (...) for overflow text */
+        }
+        .left-section{ 
+            flex-basis: 25%; 
+            background-color: #FF00BF; 
+            
+            
+        }    
+        .right-section {
+            flex-basis: 25%;  
+            background-color: #FFC0CB; 
+            
+        }
+        .middle-section {
+            flex-basis: 50%; 
+            background-color: #FF69B4;  
+            justify-content: center;  
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Information of Foods</h1>
+        </header>
+        <div class="middle-section">
+            <div class="left-section">
+                <img src = 'burger.png' alt="Burger" width="500px" height="400px"> 
+                <p>A burger is a patty of ground beef grilled and placed between two halves of a bun.Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor.Burgers are considered an American food but are popular around the world.</p>
+            </div>
+            <div class="middle-section">
+                <img src = 'picture.png' alt="Pizza" width="500px" height="400px">  
+            </div>
+            <div class="right-section">
+                <img src = 'sushi.png' alt="Pizza" width="500px" height="400px">
+            </div>
+        </div>
+        <footer>
+        </footer>
+    </div>
+</body>
+</html>
+
