@@ -1,80 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Meta tags for character encoding and viewport settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the HTML page -->
     <title>Box Example3</title>
+    <!-- CSS styles for the layout -->
     <style>
         body {
             margin: 0;
             padding: 0;
         }
+        /* Container for the entire page */
         .container {
             display: flex;
             flex-direction: column;
-            height: 100vh;
+            height: 100vh; /* Full height of the viewport */
         }
+        /* Styling for the header section */
         header {
             background-color: #FF00FF;
             color: white;
             padding: 10px;
             text-align: center;
         } 
+        /* Styling for the footer section */
         footer {
             background-color: #F9629F;
             color: white;
             padding: 10px;
             text-align: center;
         }
+        /* Styling for the middle section (contains left, middle, and right sections) */
         .middle-section {
             display: flex;
-            flex: 1; 
-
+            flex: 1; /* Grow to fill available space */
         }
+        /* Styling for the left section */
         .left-section, .right-section, .middle-section {
-          padding: 2px; 
+          padding: 2px; /* Add some padding */
           text-overflow: ellipsis; /* Show ellipsis (...) for overflow text */
         }
-        .left-section{ 
-            flex-basis: 25%; 
-            background-color: #FF00BF; 
-            
-            
+        .left-section { 
+            flex-basis: 25%; /* 25% width of the container */
+            background-color: #FF00BF; /* Background color */
         }    
+        /* Styling for the right section */
         .right-section {
-            flex-basis: 25%;  
-            background-color: #FFC0CB; 
-            
+            flex-basis: 25%; /* 25% width of the container */
+            background-color: #FFC0CB; /* Background color */
         }
+        /* Styling for the middle section */
         .middle-section {
-            flex-basis: 50%; 
-            background-color: #FF69B4;  
-            justify-content: center;  
-            
-            
+            flex-basis: 50%; /* 50% width of the container */
+            background-color: #FF69B4; /* Background color */
+            justify-content: center; /* Center content vertically */
         }
     </style>
 </head>
 <body>
+    <!-- Container div -->
     <div class="container">
+        <!-- Header section -->
         <header>
-            <h1>Information of Foods</h1>
+            <!-- Title -->
+            <h1>Foods</h1>
         </header>
+        <!-- Middle section containing left, middle, and right sections -->
         <div class="middle-section">
+            <!-- Left section -->
             <div class="left-section">
-                <img src = 'burger.png' alt="Burger" width="500px" height="400px"> 
-                <p>A burger is a patty of ground beef grilled and placed between two halves of a bun.Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor.Burgers are considered an American food but are popular around the world.</p>
-            </div>
+                <!-- Image and description for burger -->
+                <img src="burger.png" alt="Burger" width="500px" height="400px"> 
+                </div>
+            <!-- Middle section -->
             <div class="middle-section">
-                <img src = 'picture.png' alt="Pizza" width="500px" height="400px">  
+                <!-- Image for pizza -->
+                <img src="picture.png" alt="Pizza" width="500px" height="400px">  
             </div>
+            <!-- Right section -->
             <div class="right-section">
-                <img src = 'sushi.png' alt="Pizza" width="500px" height="400px">
+                <!-- Image for sushi -->
+                <img src="sushi.png" alt="Sushi" width="500px" height="400px">
             </div>
         </div>
+        <!-- Footer section -->
         <footer>
+            <!-- Footer content -->
         </footer>
     </div>
 </body>
 </html>
-
