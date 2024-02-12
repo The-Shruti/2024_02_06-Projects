@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
+    <!-- Meta tags for character encoding and viewport settings -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <!-- Title of the HTML page -->
     <title>Youtube Clone</title> 
+     <!-- Link to Font Awesome library for icons -->
     <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css> 
+    <!-- Link to external CSS file for custom styles -->
     <link rel="stylesheet" type="text/css" href="youtube.css"> 
 </head>
 
-<body> 
-    <div class="youtube-dash">
+<body>  
+        <!-- Main container for the YouTube dashboard -->
+    <div class="youtube-dash"> 
+           <!-- Header section -->
         <div class="header"> 
+            <!-- YouTube logo and link -->
             <div class="logo">  
                 <a href="#"><i class="fa-solid fa-play"></i> Youtube</a> 
-            </div> 
+            </div>  
+            <!-- Search bar -->
             <div class="search-bar">
                 <input type="text" placeholder="Search" name="">  
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-solid fa-microphone"></i>
             </div>   
+            <!-- Header profile section with notifications and user profile -->
             <div class="header-profile"> 
                 <i class="fa-solid fa-video"></i> 
                 <div class="notification">
@@ -30,9 +39,13 @@
                 <a href="#"><img class="profile-user" src="images/pic.png"></a>
             </div>
         </div>  
-        <div class="wrapper">
-            <div class="left-side"> 
-                <div class="side-wrapper">
+             <!-- Wrapper for the main content -->
+        <div class="wrapper"> 
+             <!-- Left side menu -->
+            <div class="left-side">  
+            <!-- Side menu wrapper -->
+                <div class="side-wrapper"> 
+                 <!-- Side menu for various sections -->
                 <div class="side-menu">
                     <a class="active" href="#">
                         <i class="fa-solid fa-house"></i>Home
@@ -62,7 +75,8 @@
                         <i class="fa-solid fa-box-archive"></i>Liked Videos
                     </a>
                 </div>
-            </div>
+            </div> 
+                <!-- Additional side menu for subscriptions -->
             <div class="side-wrapper"> 
                 <div class="side-title">
                     Subscription
@@ -84,7 +98,8 @@
                         <i class="fa-solid fa-book"></i>3D/AR 
                     </a>
                 </div>
-            </div> 
+            </div>  
+                <!-- Additional side menu for more options -->
             <div class="side-wrapper"> 
                 <div class="side-title">
                     More From Youtube
@@ -126,10 +141,14 @@
                 </div>
             </div>
         </div>  
-        <div class="right-side">
-            <div class="main-container"> 
+            <!-- Right side main content -->
+        <div class="right-side"> 
+                 <!-- Main container for content -->
+            <div class="main-container">  
+                 <!-- Main header section with various options -->
                 <div class="main-header"> 
-                    <div class="header-menu">
+                    <div class="header-menu"> 
+                         <!-- Main header links for filtering content -->
                         <a href="#" class="main-header-link" active>
                             Desktop
                         </a> 
@@ -161,9 +180,12 @@
                             React
                         </a>  
                     </div>
-                </div>  
-                <div class="content-wrapper"> 
-                    <div class="content-section">
+                </div>   
+                <!-- Content wrapper containing various video cards -->
+                <div class="content-wrapper">  
+                    <!-- Content section with video cards -->
+                    <div class="content-section"> 
+                        <!-- Video cards for displaying video thumbnails and information -->
                         <div class="apps-card">
                             <!-- First row of images -->
                             <div class="app-card">
