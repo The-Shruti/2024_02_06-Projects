@@ -1,263 +1,296 @@
+/* Import Google Fonts for the entire document */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* Global styles */
 *{
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    box-sizing: border-box; /* Box model includes padding and border in the element's total width and height */
+    font-family: "Poppins", sans-serif; /* Set default font family */
 } 
 
+/* Anchor tag styles */
 a,a:hover{
-    text-decoration: none; 
-    color: #fff;
+    text-decoration: none; /* Remove underline on anchor tags */
+    color: #fff; /* Set default text color for anchor tags */
 } 
 
+/* Body styles */
 body{
-    width: 100%; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column; 
-    padding: 5px; 
-    background: #181b21 ; 
-    height: 100vh;
+    width: 100%; /* Full width */
+    display: flex; /* Flex container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Arrange children in column */
+    padding: 5px; /* Padding for body */
+    background: #181b21; /* Background color */
+    height: 100vh; /* Full viewport height */
 } 
 
+/* YouTube dashboard container */
 .youtube-dash{
-    width: 100%; 
-    display: flex; 
-    flex-direction: column; 
-    border-radius: 14px; 
-    font-size: 15px; 
-    font-weight: 500; 
-    overflow: hidden;
+    width: 100%; /* Full width */
+    display: flex; /* Flex container */
+    flex-direction: column; /* Arrange children in column */
+    border-radius: 14px; /* Rounded corners */
+    font-size: 15px; /* Default font size */
+    font-weight: 500; /* Default font weight */
+    overflow: hidden; /* Hide overflowing content */
 }  
 
+/* Header styles */
 .header{
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    flex-shrink: 0; 
-    height: 80px; 
-    width: 100%; 
-    border-bottom: 1px solid rgba(113 119 144 / 25%); 
-    padding: 0 30px; 
-    white-space: nowrap;
+    display: flex; /* Flex container */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center vertically */
+    flex-shrink: 0; /* Prevent shrinking */
+    height: 80px; /* Header height */
+    width: 100%; /* Full width */
+    border-bottom: 1px solid rgba(113 119 144 / 25%); /* Bottom border */
+    padding: 0 30px; /* Padding */
+    white-space: nowrap; /* Prevent text wrap */
 } 
 
+/* Logo styles */
 .logo a{
-    color: #fff; 
-    font-size: 25px;
+    color: #fff; /* Text color */
+    font-size: 25px; /* Font size */
 }   
 
 .logo a i {
-    background-color: red; 
-    font-size: 15px; 
-    width: 60px; 
-    height: 40px; 
-    line-height: 40px; 
-    text-align: center; 
-    border-radius: 5px;
+    background-color: red; /* Background color */
+    font-size: 15px; /* Font size */
+    width: 60px; /* Width */
+    height: 40px; /* Height */
+    line-height: 40px; /* Center text vertically */
+    text-align: center; /* Center text horizontally */
+    border-radius: 5px; /* Rounded corners */
 } 
 
+/* Search bar styles */
 .search-bar{
-    position: relative; 
-    height: 40px; 
-    display: flex; 
-    align-items: center; 
-    width: 100%; 
-    max-width: 800px; 
-    padding-left: 16px; 
-    border-radius: 4px;
+    position: relative; /* Position relative */
+    height: 40px; /* Height */
+    display: flex; /* Flex container */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Full width */
+    max-width: 800px; /* Maximum width */
+    padding-left: 16px; /* Left padding */
+    border-radius: 4px; /* Rounded corners */
 } 
 
+/* Search input styles */
 .search-bar input{
-    width: 100%; 
-    height: 50px; 
-    border: none; 
-    background-color: #f2f2f2; 
-    font-size: 15px; 
-    font-weight: 500;  
-    color: #000;
-    padding: 0 20px 0 20px;    
-
+    width: 100%; /* Full width */
+    height: 50px; /* Height */
+    border: none; /* No border */
+    background-color: #f2f2f2; /* Background color */
+    font-size: 15px; /* Font size */
+    font-weight: 500; /* Font weight */
+    color: #000; /* Text color */
+    padding: 0 20px 0 20px; /* Padding */
 } 
 
+/* Search icon styles */
 .search-bar i.fa-magnifying-glass{
-    position: absolute; 
-    right: 45px; 
-    font-size: 19px; 
-    color: #888; 
-    padding: 14px 25px; 
-    cursor: pointer; 
-    border-left: 1px solid #888; 
+    position: absolute; /* Position absolute */
+    right: 45px; /* Right position */
+    font-size: 19px; /* Font size */
+    color: #888; /* Text color */
+    padding: 14px 25px; /* Padding */
+    cursor: pointer; /* Cursor style */
+    border-left: 1px solid #888; /* Left border */
 } 
 
+/* Microphone icon styles */
 .fa-microphone{
-    color: #fff; 
-    font-size: 35px; 
-    padding-left: 25px; 
-    cursor: pointer;
+    color: #fff; /* Text color */
+    font-size: 35px; /* Font size */
+    padding-left: 25px; /* Left padding */
+    cursor: pointer; /* Cursor style */
 } 
 
+/* Header profile section styles */
 .header-profile{
-    display: flex; 
-    align-items: center; 
-    padding: 0 15px 0 40px;
+    display: flex; /* Flex container */
+    align-items: center; /* Center vertically */
+    padding: 0 15px 0 40px; /* Padding */
 }
 
+/* Header profile icon styles */
 .header-profile i{
-    font-size: 19px; 
-    color: #f9fafb; 
-    margin-right: 22px;
+    font-size: 19px; /* Font size */
+    color: #f9fafb; /* Text color */
+    margin-right: 22px; /* Right margin */
 } 
 
+/* Notification styles */
 .notification {
-    position: relative;
+    position: relative; /* Position relative */
 } 
 
+/* Notification number styles */
 .notification .notification-number{ 
-    position: absolute; 
-    background-color: #ee7616;  
-    width: 16px; 
-    height: 16px; 
-    border-radius: 50%; 
-    font-size: 10px; 
-    display: flex; 
-    justify-content: center; 
-    color: #fff; 
-    right: 10px;
-    top: -10px; 
-    margin-left: 50px; 
+    position: absolute; /* Position absolute */
+    background-color: #ee7616; /* Background color */
+    width: 16px; /* Width */
+    height: 16px; /* Height */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 10px; /* Font size */
+    display: flex; /* Flex container */
+    justify-content: center; /* Center horizontally */
+    color: #fff; /* Text color */
+    right: 10px; /* Right position */
+    top: -10px; /* Top position */
+    margin-left: 50px; /* Left margin */
 } 
 
+/* Profile image styles */
 .profile-user{
-    width: 35px; 
-    height: 35px; 
-    border-radius: 50px; 
-    margin-left: 22px;
+    width: 35px; /* Width */
+    height: 35px; /* Height */
+    border-radius: 50px; /* Rounded corners */
+    margin-left: 22px; /* Left margin */
 } 
 
+/* Wrapper styles */
 .wrapper{
-    display: flex; 
-    flex-grow: 1; 
-    overflow: hidden;
+    display: flex; /* Flex container */
+    flex-grow: 1; /* Grow to fill available space */
+    overflow: hidden; /* Hide overflowing content */
 } 
 
+/* Left side menu styles */
 .left-side{
-    flex-basis: 240px; 
-    border-right: 1px solid rgba(113 119 144 / 25%); 
-    padding: 25px 10px; 
-    overflow: hidden; 
-    flex-shrink: 0; 
-    transition: 0.5s;
+    flex-basis: 240px; /* Basis for flex sizing */
+    border-right: 1px solid rgba(113 119 144 / 25%); /* Right border */
+    padding: 25px 10px; /* Padding */
+    overflow: hidden; /* Hide overflowing content */
+    flex-shrink: 0; /* Prevent shrinking */
+    transition: 0.5s; /* Transition effect */
 }
 
+/* Side menu styles */
 .side-menu{
-    display: flex; 
-    flex-direction: column; 
-    white-space: nowrap;
+    display: flex; /* Flex container */
+    flex-direction: column; /* Arrange items in column */
+    white-space: nowrap; /* Prevent text wrap */
 } 
 
+/* Side menu item styles */
 .side-menu a{
-    color: #f9fafb; 
-    display: flex; 
-    align-items: center; 
-    font-size: 17px; 
-    font-weight: 400; 
-    padding: 10px; 
-    border-radius: 6px; 
-    transition: 0.3s;
+    color: #f9fafb; /* Text color */
+    display: flex; /* Flex container */
+    align-items: center; /* Center vertically */
+    font-size: 17px; /* Font size */
+    font-weight: 400; /* Font weight */
+    padding: 10px; /* Padding */
+    border-radius: 6px; /* Rounded corners */
+    transition: 0.3s; /* Transition effect */
 } 
 
+/* Additional spacing between side menu wrappers */
 .side-wrapper + .side-wrapper{
-    margin-top: 20px;
+    margin-top: 20px; /* Top margin */
 }  
 
+/* Active side menu item styles */
 .side-menu a.active{
-    color: #000; 
-    background-color: #e5e5e5;
+    color: #000; /* Text color */
+    background-color: #e5e5e5; /* Background color */
 } 
 
+/* Hover styles for side menu items */
 .side-menu a:hover{
-    background-color: #999ba5;
+    background-color: #999ba5; /* Background color */
 }
 
+/* Icon styles for side menu items */
 .side-menu i{
-    width: 30px; 
-    color: #ee7616; 
-    margin-right: 8px;
+    width: 30px; /* Width */
+    color: #ee7616; /* Text color */
+    margin-right: 8px; /* Right margin */
 } 
 
+/* Side title styles */
 .side-title{
-    font-size: 17px; 
-    color: rgbo(113 119 144 / 78%); 
-    margin-bottom: 14px;
+    font-size: 17px; /* Font size */
+    color: rgba(113 119 144 / 78%); /* Text color */
+    margin-bottom: 14px; /* Bottom margin */
 } 
 
+/* Hover styles for left side menu */
 .left-side:hover{
-    overflow: auto;
+    overflow: auto; /* Show scrollbar on hover */
 } 
 
+/* Right side styles */
 .right-side{
-    width: 100%; 
-    overflow: auto;
+    width: 100%; /* Full width */
+    overflow: auto; /* Show scrollbar for overflowing content */
 } 
 
+/* Main header styles */
 .main-header{
-    display: flex; 
-    align-items: center; 
-    border-bottom: 1px solid rgba(113 119 144 / 25%); 
-    height: 58px; 
-    flex-shrink: 0;
+    display: flex; /* Flex container */
+    align-items: center; /* Center vertically */
+    border-bottom: 1px solid rgba(113 119 144 / 25%); /* Bottom border */
+    height: 58px; /* Height */
+    flex-shrink: 0; /* Prevent shrinking */
 } 
+
+/* Main header link styles */
 .main-header ,.header-menu a{
-    padding: 8px 20px;
+    padding: 8px 20px; /* Padding */
 } 
 
+/* Main container styles */
 .main-container{
-    display: flex; 
-    flex-direction: column; 
-    flex-grow: 1;
+    display: flex; /* Flex container */
+    flex-direction: column; /* Arrange items in column */
+    flex-grow: 1; /* Grow to fill available space */
 } 
 
+/* Main header link styles */
 .main-header-link{
-    color: #f1f1f1; 
-    border-radius: 50px; 
-    background-color: #000; 
-    margin-right: 5px; 
-    transition: 0.3s;
+    color: #f1f1f1; /* Text color */
+    border-radius: 50px; /* Rounded corners */
+    background-color: #000; /* Background color */
+    margin-right: 5px; /* Right margin */
+    transition: 0.3s; /* Transition effect */
 }
 
+/* Active and hover styles for main header links */
 .main-header-link.active,
 .main-header-link:hover{
-    color: #1f1f1f; 
-    background-color: #fff;
+    color: #1f1f1f; /* Text color */
+    background-color: #fff; /* Background color */
 } 
 
+/* Header menu styles */
 .main-header .header-menu{
-    margin-left: 65px;
+    margin-left: 65px; /* Left margin */
 } 
 
+/* Content wrapper styles */
 .content-wrapper{
-    display: flex; 
-    flex-direction: column; 
-    color: #f9fafb; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgba(16 18 27 / 40%);
+    display: flex; /* Flex container */
+    flex-direction: column; /* Arrange items in column */
+    color: #f9fafb; /* Text color */
+    height: 100%; /* Full height */
+    overflow: auto; /* Show scrollbar for overflowing content */
+    background-color: rgba(16 18 27 / 40%); /* Background color */
 } 
 
+/* Apps card styles */
 .apps-card {
-    display: flex;
-    justify-content: space-between; /* Aligns items with space between them */
-    margin-top: 20px; /* Adds space between the rows */
+    display: flex; /* Flex container */
+    justify-content: space-between; /* Space between items */
+    margin-top: 20px; /* Top margin */
 }
 
+/* Individual app card styles */
 .app-card {
-    width: 30%; /* Adjust width as needed */
+    width: 30%; /* Width */
+    
 }
-
-
-
-
