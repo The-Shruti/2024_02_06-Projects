@@ -1,225 +1,287 @@
+/* Styles for the navigation bar */
 .navbar{
-    background-color: black;
-    color: white;
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
     padding: 10px 0; /* Adjust padding as needed */
-    align-items: center;  
-    display: flex;
-    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    display: flex; /* Display as flex container */
+    justify-content: space-between; /* Align items with space between them */
 }
+
+/* Styles for the navigation menu */
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0; 
-    justify-content: space-between;
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    justify-content: space-between; /* Align items with space between them */
 }
+
 nav ul li {
-    display: inline-block;
+    display: inline-block; /* Display menu items inline */
     margin-right: 20px; /* Adjust margin between menu items */
 }
+
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove underline from links */
     padding: 5px 10px; /* Adjust padding as needed */
 }
+
 nav ul li a:hover {
- background-color: #555; /* Change background color on hover */
+    background-color: #555; /* Change background color on hover */
 }  
+
+/* Styles for the logo */
 .logo{ 
-    display: flex; 
-    align-items: center; 
-    padding-left: 5px;
+    display: flex; /* Display as flex container */
+    align-items: center; /* Align items vertically */
+    padding-left: 5px; /* Adjust left padding */
 } 
+
 .logo img{
-    margin-right: 10px;  
+    margin-right: 10px; /* Adjust margin between logo and text */
 }  
+
+/* Styles for text */
 .text { 
-    display:flex; 
-    align-items: center; 
-    
+    display:flex; /* Display as flex container */
+    align-items: center; /* Align items vertically */
 }  
+
 #sub-text{
-    margin-right: 10px;
+    margin-right: 10px; /* Adjust right margin */
 }
+
 .text span { 
-    display: block;
+    display: block; /* Display as block element */
 } 
+
+/* Styles for follow button */
 #follow-text a{
-    color: green;
+    color: green; /* Set text color to green */
 } 
+
+/* Styles for navigation anchors */
 .anchors{
-    display: flex;   
+    display: flex; /* Display as flex container */
 }
+
 .anchors a{ 
-    justify-content: flex-end;
-    color: white;  
-    width: 70px; 
-    height: 30px; 
-    text-decoration: none; 
-    margin-left: 10px; 
-    padding-top: 0.1px; 
-    padding-left: 8px;  
-    padding-right: 1px;
-    background-color: grey; 
-    align-items: center; 
-    border-radius: 0.5vh; 
-    padding-bottom: 0.1px;
+    justify-content: flex-end; /* Align items to flex-end */
+    color: white; /* Set the text color to white */
+    width: 70px; /* Set width of the anchor */
+    height: 30px; /* Set height of the anchor */
+    text-decoration: none; /* Remove underline from links */
+    margin-left: 10px; /* Adjust left margin */
+    padding-top: 0.1px; /* Adjust top padding */
+    padding-left: 8px; /* Adjust left padding */
+    padding-right: 1px; /* Adjust right padding */
+    background-color: grey; /* Set background color to grey */
+    align-items: center; /* Align items vertically */
+    border-radius: 0.5vh; /* Set border radius */
+    padding-bottom: 0.1px; /* Adjust bottom padding */
 } 
+
+/* Styles for sign-up button */
 #sign-up-button {
-    background-color:#42b883;
-    color: black; 
-    padding-left: 8px;
-    padding-right: 1px; 
-    padding-top: 0.1px;  
-    padding-bottom:0.1px; 
-    align-items: center;
+    background-color:#42b883; /* Set background color */
+    color: black; /* Set text color to black */
+    padding-left: 8px; /* Adjust left padding */
+    padding-right: 1px; /* Adjust right padding */
+    padding-top: 0.1px; /* Adjust top padding */
+    padding-bottom:0.1px; /* Adjust bottom padding */
+    align-items: center; /* Align items vertically */
 } 
+
+/* Styles for Instagram logo */
 .instalogo img{
-    max-width:120px; 
-    padding-left: 1vh; 
-    margin-left: 2vh; 
-    margin-top: 2vh; 
-    padding-bottom: 2px;
+    max-width:120px; /* Set maximum width */
+    padding-left: 1vh; /* Adjust left padding */
+    margin-left: 2vh; /* Adjust left margin */
+    margin-top: 2vh; /* Adjust top margin */
+    padding-bottom: 2px; /* Adjust bottom padding */
 } 
+
+/* Styles for the second navigation section */
 .second-nav{
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    padding: 4px; 
-    height: 7vh; 
-    border:solid #dedede; 
+    display: flex; /* Display as flex container */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Align items with space between them */
+    padding: 4px; /* Adjust padding */
+    height: 7vh; /* Set height */
+    border:solid #dedede; /* Add border */
 } 
 
 .second-anchor a{
-    color: black; 
-    text-decoration: none;  
-    padding: 20px;
-    width: 1500px;
+    color: black; /* Set text color to black */
+    text-decoration: none; /* Remove underline from links */
+    padding: 20px; /* Adjust padding */
+    width: 1500px; /* Set width */
 } 
 
-
+/* Styles for the footer */
 footer {
-    padding: 10px;
-    background-color:grey;
-    color: white;
-
+    padding: 10px; /* Adjust padding */
+    background-color:grey; /* Set background color */
+    color: white; /* Set text color to white */
 }
+
+/* Styles for the middle section */
 .middle-section{
-    display: flex;   
-
+    display: flex; /* Display as flex container */
 } 
+
+/* Styles for the left section */
 .left-section {  
-    background-color:white;
-    height: 700px; 
-    width: 2000px; 
-
+    background-color:white; /* Set background color to white */
+    height: 700px; /* Set height */
+    width: 2000px; /* Set width */
 } 
+
+/* Styles for the right section */
 .right-section{ 
-    padding: 10px; 
-    background-color: black;
-    height: 700px;  
-    width: 1000px; 
-    text-size-adjust: 30px;
+    padding: 10px; /* Add padding */
+    background-color: black; /* Set background color to black */
+    height: 700px; /* Set height */
+    width: 1000px; /* Set width */
+    text-size-adjust: 30px; /* Adjust text size */
 } 
 
+/* Styles for the follow button */
 #follow-button{
-    background-color: #42b883; 
-    text-decoration: none; 
-    color: black; 
-    padding-left: 1vh; 
-    padding-right: 1vh; 
-    border-radius: 0.2vh; 
-    margin-left: 10px;
+    background-color: #42b883; /* Set background color */
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set text color to black */
+    padding-left: 1vh; /* Adjust left padding */
+    padding-right: 1vh; /* Adjust right padding */
+    border-radius: 0.2vh; /* Set border radius */
+    margin-left: 10px; /* Adjust left margin */
 } 
-.search-container{
-    display: flex; 
-    align-items:center;
-}  
-.paragraph{
-    text-align: justify;
-}
-.icons img {
-    margin-right: 40px; 
-} 
-p{
-    font-size: 16px; 
-    padding-left: 100px;
-} 
-.main-picture { 
-    padding-left: 100px;
-}  
-.icons{
-    padding-left: 100px;
-}
-.search-input{
-    margin: 0; 
-    margin-top: 2px; 
 
-} 
-.comment-input {
-    color: #808080; /* Faint color */ 
-    padding-left: 100px; 
-    margin-top: 10px;
+/* Styles for the search container */
+.search-container{
+    display: flex; /* Display as flex container */
+    align-items:center; /* Align items vertically */
 }  
+
+/* Styles for paragraphs */
+.paragraph{
+    text-align: justify; /* Justify text */
+}
+
+/* Styles for icons */
+.icons img {
+    margin-right: 40px; /* Adjust margin */
+} 
+
+/* Styles for paragraphs */
+p{
+    font-size: 16px; /* Set font size */
+    padding-left: 100px; /* Adjust left padding */
+} 
+
+/* Styles for main picture */
+.main-picture { 
+    padding-left: 100px; /* Adjust left padding */
+}  
+
+/* Styles for icons */
+.icons{
+    padding-left: 100px; /* Adjust left padding */
+}
+
+/* Styles for search input */
+.search-input{
+    margin: 0; /* Remove margin */
+    margin-top: 2px; /* Adjust top margin */
+} 
+
+/* Styles for comment input */
+.comment-input {
+    color: #808080; /* Set text color */
+    padding-left: 100px; /* Adjust left padding */
+    margin-top: 10px; /* Adjust top margin */
+}  
+
+/* Styles for footer links */
 #foot-bar a{
-    color: white; 
-    background-color: #4d4d4f;
-    margin-left: 5px;  
-    margin-top: 5px; 
-    height: 4.5vh; 
-    text-decoration: none; 
-    border-radius: 0.5vh;
-    padding: 5px;
+    color: white; /* Set text color to white */
+    background-color: #4d4d4f; /* Set background color */
+    margin-left: 5px; /* Adjust left margin */
+    margin-top: 5px; /* Adjust top margin */
+    height: 4.5vh; /* Set height */
+    text-decoration: none; /* Remove underline */
+    border-radius: 0.5vh; /* Set border radius */
+    padding: 5px; /* Add padding */
 } 
+
+/* Styles for the left part */
 .left-part {
-    float: left; 
-    width: 50%;
-  }
+    float: left; /* Float to the left */
+    width: 50%; /* Set width to 50% */
+}
+
+/* Styles for the right part */
 .right-part {
-    float: left; 
-    width: 50%;
-  }
-  
+    float: left; /* Float to the left */
+    width: 50%; /* Set width to 50% */
+}
+
+/* Styles for images in another picture */
 .another-picture img {
-    display: block; 
-    margin-bottom: 10px; 
+    display: block; /* Display as block element */
+    margin-bottom: 10px; /* Adjust bottom margin */
 } 
+
+/* Styles for time ago */
 .time-ago{
-    margin-top: 40px; 
-    color: #808080; 
+    margin-top: 40px; /* Adjust top margin */
+    color: #808080; /* Set text color */
 } 
+
+/* Styles for the above section */
 .above-section{ 
-    border: grey;  
-    background-color: #333533;
-    width: 480px; 
-    height: 235px; 
+    border: grey; /* Set border color */
+    background-color: #333533; /* Set background color */
+    width: 480px; /* Set width */
+    height: 235px; /* Set height */
 }
+
+/* Styles for the middle section right */
 .middle-section-right{
-    border: grey;  
-    background-color: #333533;
-    width: 480px; 
-    height: 235px; 
+    border: grey; /* Set border color */
+    background-color: #333533; /* Set background color */
+    width: 480px; /* Set width */
+    height: 235px; /* Set height */
 }
+
+/* Styles for the below section */
 .below-section {
-    background-color: #333533;
-    border: grey;
-    width: 480px; 
-    height: 235px; 
+    background-color: #333533; /* Set background color */
+    border: grey; /* Set border color */
+    width: 480px; /* Set width */
+    height: 235px; /* Set height */
 } 
+
+/* Styles for header1 */
 .header1{
-    background-color: black; 
-    height: 40px; 
-    width:480px; 
-    
+    background-color: black; /* Set background color */
+    height: 40px; /* Set height */
+    width:480px; /* Set width */
 } 
+
+/* Styles for header2 */
 .header2{
-    background-color: black; 
-    height: 40px; 
-    width: 480px;
+    background-color: black; /* Set background color */
+    height: 40px; /* Set height */
+    width: 480px; /* Set width */
 } 
+
+/* Styles for header3 */
 .header3{
-    background-color: black; 
-    height: 40px; 
-    width: 480px;
+    background-color: black; /* Set background color */
+    height: 40px; /* Set height */
+    width: 480px; /* Set width */
 }
 
  
